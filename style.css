@@ -134,7 +134,7 @@ header .back {
 }
 
 .body-first, .body-third, .body-second {
-  height: 35vh;
+  height: 32vh;
   border-bottom: solid 0.5px white;
   text-align: center;
   color: white;
@@ -145,7 +145,7 @@ header .back {
 
 .body-first-flex {
   position: relative;
-  height: 30vh;
+  height: 25vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -175,7 +175,7 @@ header .back {
 }
 
 .body-second {
-  height: 25vh;
+  height: 20vh;
 }
 .body-second p {
   text-align: justify;
@@ -190,9 +190,13 @@ header .back {
   height: 40px;
   border-radius: 15px;
   background-color: black;
-  transform: translate(0px, -28px);
+  transform: translate(0px, -33px);
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-third {
+  height: 30vh;
 }
 
 @media (max-width: 945px) {

@@ -127,7 +127,7 @@ header {
     margin-top: 10px;   
 }
 .body-first{
-    height: 35vh;
+    height: 32vh;
     border-bottom: solid .5px white;
 text-align: center;
     color: white;
@@ -137,7 +137,7 @@ text-align: center;
 }
 .body-first-flex{
     position: relative;
-    height: 30vh;
+    height: 25vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -166,7 +166,7 @@ text-align: center;
 }
 .body-second{
     @extend .body-first;
-    height: 25vh;
+    height: 20vh;
     p{
         text-align: justify;
         font-weight: 500;
@@ -180,13 +180,14 @@ text-align: center;
         height: 40px;
         border-radius: 15px;
         background-color: black;
-        transform: translate(0px, -28px);
+        transform: translate(0px, -33px);
 font-size: 1rem;
 font-family: Arial, Helvetica, sans-serif;
     }
 }
 .body-third{
-    @extend .body-first
+    @extend .body-first;
+    height: 30vh;
 }
 
 @media (max-width: 945px) {
