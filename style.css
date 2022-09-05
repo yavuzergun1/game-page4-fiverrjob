@@ -133,7 +133,7 @@ header .back {
 }
 
 .body-first, .body-third, .body-second {
-  height: 32vh;
+  height: 72px;
   border-bottom: solid 0.5px white;
   text-align: center;
   color: white;
@@ -144,7 +144,7 @@ header .back {
 
 .body-first-flex {
   position: relative;
-  height: 25vh;
+  height: 60px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -174,7 +174,7 @@ header .back {
 }
 
 .body-second {
-  height: 20vh;
+  height: 45px;
 }
 .body-second p {
   text-align: justify;
@@ -195,7 +195,115 @@ header .back {
 }
 
 .body-third {
-  height: 30vh;
+  height: 70px;
+}
+.body-third > p {
+  font-size: 0.5rem;
+}
+
+.body-third-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.body-third-flex > p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.status {
+  width: 70%;
+  height: 58px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-left {
+  font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-left: 5px;
+}
+.flex-left p:first-child {
+  margin-bottom: 10px;
+}
+
+.flex-right {
+  padding-right: 5px;
+}
+.flex-right p:first-child {
+  color: green;
+  margin-bottom: 10px;
+}
+.flex-right p:nth-child(2) {
+  color: red;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer-left, .footer-right {
+  width: 50%;
+  height: 110px;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left-first, .footer-right-first, .footer-left-second, .footer-right-second {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+.footer-left-first p:first-child, .footer-right-first p:first-child, .footer-left-second p:first-child, .footer-right-second p:first-child {
+  color: green;
+}
+.footer-left-first p:nth-child(2), .footer-right-first p:nth-child(2), .footer-left-second p:nth-child(2), .footer-right-second p:nth-child(2) {
+  color: white;
+}
+
+.footer-left-second, .footer-right-second {
+  align-items: center;
+  font-size: 1.2rem;
+}
+.footer-left-second img, .footer-right-second img {
+  width: 45px;
+}
+
+.footer-left-third, .footer-right-third {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.footer-left-third p, .footer-right-third p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 4px;
+  pointer-events: none;
+}
+.footer-left-third img, .footer-right-third img {
+  width: 80px;
+  cursor: pointer;
+}
+
+.footer-right-first {
+  display: flex;
+}
+.footer-right-first p:first-child {
+  color: red;
+}
+.footer-right-first p:nth-child(2) {
+  color: white;
 }
 
 @media (max-width: 945px) {
